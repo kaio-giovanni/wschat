@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <title>WSCHAT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>WSCHAT</h1>
+    <div class="checking-auth-area">
+        Checking login...
+    </div>
+    <div class="non-auth-area">
+        <button id="login-button">Sign in</button>
+    </div>
+    <div class="auth-area">
+        <nav>
+            <button id="get-jwt-button">Get token JWT</button>
+            <button id="get-ticket-button">Get ticket</button>
+            <button id="connect-without-ticket-button">Connect without ticket</button>
+            <button id="connect-with-ticket-button">Connect with ticket</button>
+            <button id="logout-button">logout</button>
+        </nav>
+        <p>Hello, <span class="user-name">...</span></p>
+    </div>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/backend.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
