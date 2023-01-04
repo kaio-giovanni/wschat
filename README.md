@@ -1,6 +1,6 @@
 # WSCHAT
 
-This project uses websocket with spring boot to create a realtime chat 
+This project uses websocket with spring boot to create a realtime chat. Using [auth0](https://auth0.com/) to authorize users and validate each websocket connection, and [redis](https://redis.io/) to database cache. 
 
 ### Dependencies
 - Git
